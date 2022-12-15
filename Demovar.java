@@ -19,6 +19,8 @@
 //Rule 8: Predefined class names can be use as identifier
 //eg : --String ----------->inbuilt chass name
 //eg2 : --Runnable----------->inbuit interfacename
+//for example   int String = 03;
+//              System.out.print(String); ---------output is 03 you will get
 
 // Note 1 if you use reserve word(if , else , for , while foreach etc..) for identifer you will get error but in case of predefined class and interface your will not get an error.
 

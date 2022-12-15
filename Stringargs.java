@@ -2,11 +2,18 @@ public class Stringargs {
 
     public static void main(String[] args) {
 
-        System.out.println("hi pranav kumar");
+        System.out.println("HI pranav kumar");
         System.out.println(args[0]);
-        System.out.println(args[3]);
+        System.out.println(args[1]);
     }
 }
+
+// statically typed programming language where the type of data is being
+// ,checked during compiled time itself
+
+// Dynamically-typed languages are those where the interpreter
+// assigns variables a type at runtime based on the variable's value at the
+// time.
 
 // why to write String ars[];
 // At the time execution we can give perementer to String args[]

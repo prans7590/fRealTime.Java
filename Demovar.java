@@ -29,7 +29,7 @@ class Student {
     // has a part
     int rollNo = 10;
     // 10 is litral -->any constant value which can be assign to a variable is
-    // colled as literal
+    // called as literal
     // rollNo is a identifer/varoablename
     // int is a dataType/reserverword
     String studentName;

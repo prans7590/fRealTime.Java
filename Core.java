@@ -1,8 +1,16 @@
 class example1 {
     public static void main(String[] args) {
         System.out.println("way to core java");
+
     }
+
 }
+
+// in this public means access for any where
+// after writing static no need make object
+// void means not returning anythisng
+// mein is method name
+// String args [] is a perameters for main method
 
 // command to execute in cmd
 

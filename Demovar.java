@@ -16,6 +16,10 @@
 //Rule6 int oneNumber= 3 ; (valid) it follow camel case if you attach two differt word
 //Rule7 we cant use reserve word for identifier
 // int if = 3939; (invalid) it foll unser rule7
+//Rule 8: Predefined class names can be use as identifier
+//eg : --String ----------->inbuilt chass name
+//eg2 : --Runnable----------->inbuit interfacename
+
 class Student {
     // has a part
     int rollNo;

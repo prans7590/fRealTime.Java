@@ -22,11 +22,16 @@
 //for example   int String = 03;
 //              System.out.print(String); ---------output is 03 you will get
 
-// Note 1 if you use reserve word(if , else , for , while foreach etc..) for identifer you will get error but in case of predefined class and interface your will not get an error.
+// Note 1 if you use reserve word(if , else , for , while foreach etc..) f
+//or identifer you will get error but in case of predefined class and interface your will not get an error.
 
 class Student {
     // has a part
-    int rollNo;
+    int rollNo = 10;
+    // 10 is litral -->any constant value which can be assign to a variable is
+    // colled as literal
+    // rollNo is a identifer/varoablename
+    // int is a dataType/reserverword
     String studentName;
 
 }

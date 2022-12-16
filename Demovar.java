@@ -46,5 +46,14 @@ class Car {
 public class Demovar {
     public static void main(String[] args) {
 
+        // it will work bez it folled in range of int and compiler bydefault use int
+        long l = 39;
+        long t = 3;
+        // it will work
+        long s = 3l;
+        long ts = 4l;
+        System.out.println(s + ts);
+
+        System.out.println(l + t);
     }
 }

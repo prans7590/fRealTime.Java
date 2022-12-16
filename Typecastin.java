@@ -14,6 +14,17 @@ public class Typecastin {
         double d;
         d = value;
         System.out.println(d);
+
+        // exampe 2
+        byte $b = 33;
+        int $i = 33;
+        byte ce = (byte) ($b + $i);
+        System.out.println(ce);
+
+        // example of explicit type casting
+        double dd = (byte) 44.94949; // loose of data or precision
+
+        System.out.println(dd);
     }
 
 }

@@ -54,9 +54,6 @@ public class Demovar {
         long ts = 4l;
         System.out.println(s + ts);
         System.out.println(l + t);
-
-        int a = 25;
-        int b = 2;
         float f = 25 / 2;
         System.out.println(f);
     }

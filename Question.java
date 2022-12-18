@@ -32,6 +32,14 @@ public class Question {
 
         // for Relational op
         // > ,< ,<= ,>=, !=, ==
+        int x = 33;
+        int y = 45;
+        System.out.println(x > y);
+        System.out.println(x < y);
+        System.out.println(x == y);
+        System.out.println(x >= y);
+        System.out.println(x <= y);
+        System.out.println(x != y);
 
     }
 }

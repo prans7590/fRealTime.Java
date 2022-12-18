@@ -67,7 +67,7 @@ public class Question {
         System.out.println(y);
 
         // i and d operator
-
+        // in which we are performming operation operent
         a = 0;
         b = 0;
         b = a++ + ++a + a++ + ++a;

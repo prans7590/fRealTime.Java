@@ -41,5 +41,18 @@ public class Question {
         System.out.println(x <= y);
         System.out.println(x != y);
 
+        // assigment op:
+        int m = 94; // single assigment
+        System.out.println(m);
+        a = b;
+        System.out.println(b);
+        x = y;
+        System.out.println(x);
+        a = b = x = y = 33; // chain assigment
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(x);
+        System.out.println(y);
+
     }
 }

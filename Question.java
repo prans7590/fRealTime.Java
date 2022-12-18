@@ -54,5 +54,25 @@ public class Question {
         System.out.println(x);
         System.out.println(y);
 
+        // compound assigment
+
+        a += 4;
+        b *= 4;
+        x /= 4;
+        y %= 4;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(x);
+        System.out.println(y);
+
+        // i and d operator
+
+        a = 0;
+        b = 0;
+        b = a++ + ++a + a++ + ++a;
+        System.out.println("===========");
+        System.out.println(b);
+
     }
 }

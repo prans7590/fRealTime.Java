@@ -30,5 +30,8 @@ public class Question {
         System.out.println("the not of true is : " + (!true));
         System.out.println("the not of true is : " + (!false));
 
+        // for Relational op
+        // > ,< ,<= ,>=, !=, ==
+
     }
 }

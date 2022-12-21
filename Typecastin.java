@@ -1,5 +1,8 @@
 public class Typecastin {
 
+    // 1 operant are involve is called unary op
+    // 2 operant are involve is called binary op
+
     public static void main(String[] args) {
 
         int a = 0;
@@ -15,7 +18,7 @@ public class Typecastin {
         d = value;
         System.out.println(d);
 
-        // exampe 2
+        // example 2
         byte $b = 33;
         int $i = 33;
         byte ce = (byte) ($b + $i);

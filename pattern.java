@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-import javax.print.attribute.standard.PrinterInfo;
 
 public class pattern {
     public static void main(String[] args) {

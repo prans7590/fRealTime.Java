@@ -8,9 +8,9 @@ class example1 {
 
 // in this public means access for any where
 // after writing static no need make object
-// void means not returning anythisng
+// void means not returning anything
 // mein is method name
-// String args [] is a perameters for main method
+// String args [] is a parameters for main method
 
 // command to execute in cmd
 

@@ -16,7 +16,7 @@ public class Stringargs {
 // time.
 
 // why to write String ars[];
-// At the time execution we can give perementer to String args[]
+// At the time execution we can give parameter to String args[]
 // as we know that to runs code we are putting cmd
 // javac Stringargs.java
 // at the time of execution we can give parameter to String agrs[]

@@ -1,8 +1,7 @@
-import javax.lang.model.util.ElementScanner14;
 
-public class Pone {
+public class assignment1 {
     public static void main(String[] args) {
-        System.out.println("Print letter B in  console");
+        System.out.println("txe file generation");
 
         int n = 14;
         for (int i = 0; i < n; i++) {
@@ -15,7 +14,7 @@ public class Pone {
                         j == (n - 1) / 2 && i > 0 && i != (n - 1) / 2 && i != n - 1 || j == 0
 
                 ) {
-                    System.out.print("*");
+                    System.out.print("?ok");
                 } else {
                     System.out.print(" ");
                 }

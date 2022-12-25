@@ -48,6 +48,20 @@ public class complexpattern {
             System.out.println("");
         }
 
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (i == (3 * n - 1) / 4 && j < (3 * n) / 4 && j > n / 4
+                        || j == (3 * n - 1) / 4 && i < (3 * n) / 4 && i > n / 4 ||
+                        i == 0 / 4 && j < (3 * n) / 4 && j > n / 4
+                        || j == 0 / 4 && i < (3 * n) / 4 && i > n / 4) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("");
+        }
     }
 
 }

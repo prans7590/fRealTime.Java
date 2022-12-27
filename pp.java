@@ -14,6 +14,24 @@ public class pp {
             System.out.println(i);
         }
         System.out.println(args.length);
-    }
 
+        int s = 20;
+        final int y = 4;
+
+        switch (y) {
+            case 20: {
+                System.out.println("This is case 20");
+                break;
+            }
+
+            case y: {
+                System.out.println("this is  case k ");
+                break;
+            }
+        }
+
+        int a = 5;
+        System.out.println(a = a * 2);
+
+    }
 }

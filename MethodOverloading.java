@@ -1,5 +1,3 @@
-import java.lang.invoke.StringConcatException;
-
 public class MethodOverloading {
 
     public static void main(String[] args) {
@@ -15,6 +13,12 @@ public class MethodOverloading {
 
     public static void main(int[] a) {
 
+        int a1 = 0;
+        int b1 = 0;
+        for (int j = 0; j < 5; j++)
+            if ((++a1 > 2 | ++b1 > 2))
+                a1++;
+        System.out.println(a1 + "  " + b1);
         System.out.println("this is call by main String args ");
     }
 

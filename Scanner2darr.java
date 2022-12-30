@@ -11,6 +11,7 @@ public class Scanner2darr {
             System.out.println("enter you class Sec number in digit " + i);
             for (int j = 0; j < a[i].length; j++) {
                 System.out.println("enter you student age in digit" + j);
+
                 a[i][j] = sc.nextInt();
 
             }
